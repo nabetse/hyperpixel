@@ -26,6 +26,6 @@ Everything should be fine compiling openFrameworks but neither your projetcs, no
 2. Add the following line to project's `config.make` file:
 
 ```
-	PROJECT_LDFLAGS += -latomic
+PROJECT_LDFLAGS += -latomic
 ```
 Now you can compile and run that project (`make` and `make run`)
